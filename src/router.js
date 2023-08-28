@@ -18,6 +18,10 @@ const router = createBrowserRouter([
 				element: <Splash />,
 			},
 			{
+				path: "home",
+				element: <Page />,
+			},
+			{
 				path: "tour",
 				element: <Tour />,
 			},
